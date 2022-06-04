@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* width: 50%; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.link {
+  margin: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.link:hover {
+  color: #0ba39c;
+}
+
+.articleTitle {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px;
+  background-color: black;
+  color: white;
+}
