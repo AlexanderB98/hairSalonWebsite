@@ -31,10 +31,23 @@
   color: #0ba39c;
 }
 
-.articleTitle {
-  text-align: center;
+.inTouch {
+  display: inline-block;
   margin-top: 50px;
-  font-size: 35px;
+  width: 550px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: black;
   color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.form-center{
+  display: flex;
+  justify-content: center;
 }
