@@ -62,4 +62,26 @@
   color: white;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  background: #0ba39c;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0 0;
+  padding: 26px 27px 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pic {
+  width: 10px;
+}
+
 
