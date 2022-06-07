@@ -125,3 +125,65 @@
 #pinterest {
   background-position: 0 -132px;
 }
+
+@media (max-width: 568px) {
+
+  body {
+    min-width: 0;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .mobile-navigation {
+    background: url(../images/mobile-menu.png) no-repeat 0 0;
+    display: block;
+    height: 50px;
+    margin: 30px auto 0;
+    padding: 0;
+    width: 50px;
+  }
+    
+  .navbar {
+    border: 1px solid #fff;
+    display: none;
+    left: 50%;
+    margin-left: -45%;
+    padding: 0;
+    position: absolute;
+    width: 90%;
+    z-index: 1001;
+  }
+
+  .inTouch {
+    height: 30px;
+    width: 450px;
+    font-size: 20px;
+  }
+  .firstPic {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 10px 0 25px;
+  }
+
+  .footer div {
+    overflow: visible;
+    width: 100%;
+  }
+
+  .footer div p {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  .footer div ul {
+    float: none;
+    margin: 0 auto;
+    width: 256px;
+  }
+  
+}
