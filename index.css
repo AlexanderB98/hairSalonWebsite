@@ -172,3 +172,75 @@ p {
   margin-inline-end: 0px;
 }
 
+@media (max-width: 568px) {
+
+  body {
+    min-width: 0;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .mobile-navigation {
+    background: url(../images/mobile-menu.png) no-repeat 0 0;
+    display: block;
+    height: 50px;
+    margin: 30px auto 0;
+    padding: 0;
+    width: 50px;
+  }
+    
+  .navbar {
+    border: 1px solid #fff;
+    display: none;
+    left: 50%;
+    margin-left: -45%;
+    padding: 0;
+    position: absolute;
+    width: 90%;
+    z-index: 1001;
+  }
+
+  .firstHalf {
+    width: 568px;
+    height: 400px;
+  }
+
+  .firstHalfParagraph {
+    padding: 100px;
+    font-size: 10px;
+  }
+
+  .secondHalf {
+    display: block;
+    margin: 70px;
+  }
+
+  .firstPic {
+    width: 400px;
+  }
+
+  .footer {
+    padding: 10px 0 25px;
+  }
+
+  .footer div {
+    overflow: visible;
+    width: 100%;
+  }
+
+  .footer div p {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  .footer div ul {
+    float: none;
+    margin: 0 auto;
+    width: 256px;
+  }
+  
+}
+
